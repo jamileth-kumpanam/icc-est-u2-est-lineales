@@ -3,8 +3,7 @@ package models;
 public class Node<T> {
 
     private T value;
-    private Node<T> next; //puntero
-
+    private Node<T> next; // puntero
     private Node<T> prev;
 
     public Node(T value) {
@@ -39,6 +38,6 @@ public class Node<T> {
 
     @Override
     public String toString() {
-        return "Node [value = " + value + ", next = " + next + "]";
+        return "Node [value = " + value + "]";
     }
 }
